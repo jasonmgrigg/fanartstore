@@ -1,0 +1,141 @@
+
+.carousel-slide {
+  height: 300px;
+}
+.carousel {
+  margin-top: 40px;
+  margin-bottom: 80px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+​
+.carousel-item {
+ height: 280px;
+ font-family: serif;
+}
+​
+.carousel-item h2 {
+ text-align: left;
+ padding-left: 0;
+ margin-left: 0;
+ padding-bottom: 30px;
+ color: #323232;
+ font-weight: 100;
+ font-size: 52px;
+ font-family: serif;
+}
+​
+.carousel-caption {
+ width: 40%;
+ text-align: left;
+ left: 10%;
+}
+​
+.image-background {
+ height: 300px;
+ max-width: none;
+ position: absolute;
+ left: 50%;
+ transform: translateX(-50%);
+}
+​
+.button {
+ border-color: black;
+ background-color: transparent;
+ box-shadow: none;
+ font-size: 14px;
+ padding: 8px;
+ border-radius: 3px;
+ border-style: solid;
+ font-family: sans-serif;
+}
+​
+.button:hover {
+ background-color: #F56400;
+ border-color: #F56400;
+ border-style: solid;
+ color: white;
+ box-shadow: none;
+}
+​
+.carousel-icons {
+ background-color: rgba(255, 255, 255, 0.9);
+ height: 140px;
+ top: 70px;
+ border-radius: 3px;
+ visibility: hidden;
+}
+​
+#previous-button {
+ color: black;
+}
+​
+#next-button {
+ color: black;
+}
+​
+.carousel-icons a:hover {
+ display: block;
+  height: 280px;
+}
+​
+.carousel:hover .carousel-icons {
+ visibility: visible;
+}
+​
+.carousel-icons .carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23323232' viewBox='0 0 8 8'%3E%3Cpath d='M4 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+.carousel-icons .carousel-control-next-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23323232' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+​
+.carousel-control-next, .carousel-control-prev {
+ opacity: .9;
+}
+​
+.carousel-control-prev {
+ width: 4%;
+ margin-right: 0;
+}
+​
+.carousel-control-next {
+ width: 4%;
+ margin-right: 0;
+}
+​
+#screen_2 .button {
+ border-color: white;
+ color: white;
+}
+​
+#screen_2 a:hover {
+ border-color: #F56400;
+}
+​
+#screen_2 h2 {
+ color: white;
+}
+​
+.carousel-indicators li {
+  border: 1.25px solid gray;
+  height: 11px;
+  width: 11px;
+  max-width: 11px;
+  border-radius: 50%;
+  bottom: -55px;
+}
+​
+.carousel-indicators .active {
+  background: gray;
+}
+
+.carousel-inner > .item > img {
+ width:auto;
+ height:390px;
+ margin: auto;
+}
+
+.carousel-inner {
+ height: 390px;
+}

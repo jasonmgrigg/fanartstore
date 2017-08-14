@@ -1,0 +1,238 @@
+
+  .fullHeader {
+    background: linear-gradient(bottom, #BCBCBC, #424241);
+    padding-top: 10px;
+    width: 100vw;
+    border-bottom: 3px solid black;
+  }
+
+  .pageLogo {
+    display: inline;
+  }
+
+  .headerTitle {
+    margin-bottom: 5px;
+    margin-left: 10px;
+    white-space: nowrap;
+    font-family: 'Monoton', cursive;
+    font-size: 3.5vw;
+    color: #C81010;
+    background-color: black;
+    padding-left: .5vw;
+    padding-right: .5vw;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 7px;
+    border: .3vw ridge white;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: #C81010;
+  }
+
+  .headerSubtitle {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.6vw;
+    color: white;
+    font-weight: bold;
+    border-bottom: 1px ridge white;
+  }
+
+  .topHeaderContainer {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 7px;
+    width: 100vw;
+    justify-content: space-between;
+  }
+
+  .searchContainer {
+    margin-top: 20px;
+    margin-left: 7vw;
+    margin-right: 5vw;
+  }
+
+  .searchForm {
+    width: 30vw;
+  }
+
+  .searchInput {
+    width: 19vw;
+    font-size: 20px;
+    height: 38px;
+    vertical-align: top;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+  }
+
+  input {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter";
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+  }
+
+  ::-webkit-input-placeholder {
+  font-weight: normal;
+  color: #C3C3C3;
+  }
+
+  .searchButton {
+    height: 38px;
+    border-bottom: 2px solid white;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: black;
+    width: auto;
+  }
+
+  .searchButton:hover {
+    background-color: white;
+  }
+
+  .searchIcon {
+    width: 1.5vw;
+    padding-left: .2vw;
+    height: auto;
+    filter: invert(100%);
+  }
+
+  .searchButton:hover .searchIcon {
+    filter: invert(0%);
+  }
+
+  button {
+    border: 2px solid white;
+    background-color: black;
+    color: #C3C3C3;
+    font-family: 'Arimo', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+  }
+
+  .userLoginContainer {
+    margin-bottom: 20px;
+    margin-right: 40px;
+    float: right;
+  }
+
+  .userLoginForm {
+    margin-bottom: 5px;
+    height: 28px;
+    font-size: 15px;
+    border-radius: 3px;
+  }
+
+  .loginButton {
+    border-radius: 3px;
+    margin-top: 2px;
+  }
+
+  .loginButton:hover {
+    border-color: white;
+    border-width: 3px;
+    color: white;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-left: 15vw;
+    margin-right: 18vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    cursor: pointer;
+    background-color: #464646;
+    padding-bottom: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 5px solid black;
+  }
+
+  .navigation li {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .allContributorsContainer {
+    text-align: center;
+  }
+
+  .allNavigationContainer {
+    justify-content: center;
+  }
+
+  .contributeList {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Architects Daughter', cursive;
+    letter-spacing: .7px;
+    font-weight: bold;
+    font-size: 1.4vw;
+  }
+
+  .contributorsListItem {
+    margin-top: 1vw;
+    color: #C3C3C3;
+  }
+
+  .contributorsListItem:hover {
+    color: white;
+    text-decoration: underline;
+  }
+
+  .navList {
+    margin-bottom: 10px;
+    font-family: 'Architects Daughter', cursive;
+    letter-spacing: .7px;
+    font-weight: bold;
+    font-size: 2vw;
+  }
+
+  .navList p {
+    text-align: center;
+  }
+
+  .navDiv {
+    width: 23.2vw;
+  }
+
+  .allNavigationColumn {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .showMore {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bold;
+    font-size: 2.8vw;
+    text-decoration: underline;
+    cursor: pointer;
+    letter-spacing: .15vw;
+    color: #C3C3C3;
+    text-shadow: 1px 1px black;
+  }
+
+  .showMore:hover {
+    color: #C60D0D;
+  }
+
+  .cartPath {
+    padding-top: .77vw;
+  }
+
+  @media screen and (min-width: 1000px) and (max-width: 1130px) {
+
+    .cartPath {
+      padding-top: .88vw;
+    }
+  }

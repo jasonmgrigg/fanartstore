@@ -1,0 +1,102 @@
+
+  body {
+    width: 100vw;
+    background-color: #2E2E2E;
+  }
+
+  .productsListTitle {
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px black;
+    font-size: 3.7vw;
+    padding-top: 80px;
+    margin-bottom: 75px;
+    font-family: 'Architects Daughter', cursive;
+    color: #C3C3C3;
+  }
+
+  .product-cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 92vw;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 50px;
+  }
+
+  .card-product-single-wrapper {
+    width: 16vw;
+    margin-right: 2.4vw;
+    margin-bottom: 50px;
+  }
+
+  .productImage {
+    width: 16vw;
+    border: 2px dashed white;
+    border-radius: 2px;
+    margin: auto;
+    cursor: pointer;
+  }
+
+  .productImage:hover {
+    box-shadow: 3px 5px 5px grey;
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:20vw;
+    height:auto;
+    display:block;
+    z-index:999;
+  }
+
+  .productName {
+    margin-top: 16px;
+    margin-bottom: 7px;
+    text-decoration: none;
+    font-family: 'Sanchez', serif;
+    font-size: 1.4vw;
+    font-weight: bold;
+    color: #C3C3C3;
+  }
+
+  .productName:hover {
+    color: #F40A0A;
+    text-decoration: underline;
+  }
+
+  .cardLink {
+    color: white;
+    text-decoration: none;
+  }
+
+  .cardLink:hover {
+    color: #C60D0D;
+    text-decoration-color: #F40A0A;
+  }
+
+  .price {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter";
+    font-weight: bold;
+    font-size: 1.8vw;
+    color: white;
+  }
+
+  .cardLink {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+  }
+
+  .imgContainer {
+    width: 16vw;
+  }
+
+  .search-count {
+    margin-left: 5.5vw;
+    color: #C3C3C3;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 1.85vw;
+    font-family: 'Sanchez', serif;
+    text-shadow: 3px 3px black;
+  }

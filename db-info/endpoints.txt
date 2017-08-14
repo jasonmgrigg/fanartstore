@@ -1,0 +1,66 @@
+
+The API URI:  https://limitless-peak-19224.herokuapp.com
+
+all returns are in JSON.
+a user and password that works:  test 1234
+
+endpoints that don't require authentication:
+
+CREATE:
+  POST /newuser
+    create a new user account. returns json of new user.
+
+  POST /newproduct
+    create a new product.  returns json of new product.
+
+  POST /newreview
+    create a new review.  returns json of new review.
+
+  POST /newcart
+    create a new shopping cart in the database.
+
+READ:
+  GET /products
+    get all products in an array, plus an average of the reviews for each
+
+  GET /products/:id
+    get a single product and it's reviews
+
+  GET /users
+    get all users in an array
+
+  GET /user/:id
+    get a user by id
+
+  GET /review/:id
+    get a single review by id
+
+  GET /products/search/:string
+    get a list of products in order of relativity based on the search string.
+
+UPDATE:
+  PUT /user/:id
+    updates a user record with whatever is different, like a pswd reset.  returns the updated record.
+
+  PUT /product/:id
+    updates a product record with whatever is different.  returns the updated record.
+
+  PUT /review/:id
+    updates a review record with whatever is different.  returns the updated record.
+
+  PUT /cart/:id
+    updates a cart record.
+
+DESTROY:
+  DELETE /user/:id
+    destroys a user record, returns success message with user record.
+
+  DELETE /product/:id
+    destroys a product record, returns success message with product record.
+
+  DELETE /review/:id
+    destroys a review record, returns success message with review record.
+
+endpoints that DO require authentication (any username or password will work):
+
+open to suggestions.  I think definitely the update and destroy ones.

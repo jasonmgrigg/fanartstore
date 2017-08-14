@@ -1,0 +1,52 @@
+
+  .footerTitle {
+    width: 100vw;
+    margin-left: -20px;
+    padding-top: 200px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter";
+    font-size: 15px;
+    background: linear-gradient(top, #BCBCBC, #424241);
+    color: #C3C3C3;
+  }
+
+  .footerForm {
+    margin-left: 20px;
+  }
+
+  .adminLoginForm button, input {
+    margin-bottom: 5px;
+  }
+
+  .adminLoginTitle {
+    margin-bottom: 5px;
+    font-family: Courier, "Lucida Sans Typewriter", "Lucida Typewriter";
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+  }
+
+  .adminLoginContainer {
+    margin-right: 65px;
+    float: right;
+    margin-top: -170px;
+  }
+
+  .adminLoginForm {
+    margin-bottom: 5px;
+    height: 28px;
+    font-size: 15px;
+    border-radius: 3px;
+  }
+
+  .loginSubButton {
+    border-radius: 3px;
+    margin-top: 2px;
+  }
+
+  .loginSubButton:hover {
+    border-color: white;
+    border-width: 3px;
+    color: white;
+  }
